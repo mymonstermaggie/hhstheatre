@@ -2,25 +2,51 @@
 <html>
   <head>
     <title>HHS Theatre</title>
-    <link href="resetpage.css rel="stylesheet">
-    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
-
-  <body>
-    <header>
-      <h1>Hutto Highschool Theatre</h1>
-      <nav>
-        <a>About</a>
-        <a>Gallary</a>
-        <a>OAP</a>
-        <a>Thespian</a>
-        <a>Coming Soon</a>
-        <a>Classes</a>
+  <body class="bg-inverse">
+    <div id="top" class="container-fluid col-xs-12 col-lg-8 text-center">
+      <nav class="navbar navbar-toggleable-md navbar-inverse">
+        <a class="navbar-brand" href="#">HHS Theatre</a>
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#open">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="open">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="about/">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Thespian Troupe</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+                OAP
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Current News</a>
+                <a class="dropdown-item" href="#">Award History</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Classes
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Theatre Production</a>
+                <a class="dropdown-item" href="#">Technical Theatre</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galleries</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </header>
-    <main>
-    <img src="quote.jpg" id="quote"/>
-
-    </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
 </html>
