@@ -20,8 +20,17 @@
 }
 
  h5 {
-  padding-top: 400px;
+  margin: 20px;
   color: white;
   text-align: center;
   font-size: 25px;
  }
+
+#quote {
+  padding-top: 400px;
+}
+
+footer {
+  color: white;
+  margin: 30px;
+}
