@@ -8,3 +8,14 @@
   width: 100%;
   max-width: 900px;
 }
+
+li{
+  color: white;
+  list-style-type: None;
+}
+
+.officers ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
