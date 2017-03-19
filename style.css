@@ -7,4 +7,21 @@
   padding-bottom: 75px;
   width: 100%;
   max-width: 900px;
+  margin-bottom: 20px;
 }
+
+.parallax {
+  background-image: url("imgs/theatrebg.jpg");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ h5 {
+  padding-top: 400px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+ }
