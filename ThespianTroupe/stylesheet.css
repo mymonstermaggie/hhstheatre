@@ -9,13 +9,39 @@
   max-width: 900px;
 }
 
+h1{
+  color: slategrey;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font-family: Georgia;
+}
+
+
+
 li{
-  color: white;
+  margin-top: 40px;
+  color: slategrey;
   list-style-type: None;
+  margin-left: 45px;
+  margin-right:45px;
+  font-family: Georgia;
+  font-size: 22px;
 }
 
 .officers ul{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.link{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  margin-top: 150px;
+  padding-left: 325px;
 }
