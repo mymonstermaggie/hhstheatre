@@ -22,7 +22,7 @@ h3 {
 }
 
 html {
-  background-color: grey;
+  background-color: lightgrey;
   display: flex;
   font-family: "Lato", sans-serif;
   justify-content: center;
@@ -59,7 +59,7 @@ a:hover {
 }
 
 article {
-  background-color: darkgrey;
+  background-color: silver;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
   margin: 20px;
 }
