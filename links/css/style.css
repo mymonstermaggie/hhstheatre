@@ -81,6 +81,10 @@ footer p {
   font-size: 9px;
 }
 
+footer {
+  color: silver;
+}
+
 @media (max-width: 600px) {
   .allcolumn {
     display: block;
