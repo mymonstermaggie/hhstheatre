@@ -46,3 +46,9 @@ a {
 a:hover {
   color: grey;
 }
+
+footer {
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
