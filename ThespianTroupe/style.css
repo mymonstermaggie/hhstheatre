@@ -18,8 +18,7 @@ h1{
 }
 
 
-
-li{
+.footer-list {
   margin-top: 40px;
   color: slategrey;
   list-style-type: None;
