@@ -10,37 +10,54 @@
 }
 
 h1{
-  color: slategrey;
+  color: white;
+  font-size: 2.5em;
   text-align: center;
-  padding-top: 50px;
-  margin-bottom: 50px;
-  font-family: Georgia;
+  margin: 50px;
 }
 
+#officers {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+}
 
 .footer-list {
-  margin-top: 40px;
-  color: slategrey;
+  color: white;
   list-style-type: None;
-  margin-left: 45px;
-  margin-right:45px;
-  font-family: Georgia;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .officers ul{
+  text-align: center;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.officers {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
 }
 
 .link{
-  padding-top: 100px;
-  display: flex;
-  justify-content: center;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-top: 20px;
 }
 
+form {
+  color: white;
+}
+
+
 footer {
+  border-top: 1px solid grey;
+  padding-top: 20px;
   text-align: center;
   color: white;
   margin: 30px;
