@@ -1,0 +1,29 @@
+#top {
+  background-image: url('../imgs/logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  padding-top: 10px;
+  padding-bottom: 75px;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+footer {
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+
+#linda {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+}
+
+.director {
+  padding: 10px;
+  color: white;
+}
