@@ -20,7 +20,8 @@ footer {
   border-radius: 20px;
   width: 100%;
   height: auto;
-  max-width: 800px;
+  max-width: 400px;
+  align-self: flex-end;
 }
 
 .director {
