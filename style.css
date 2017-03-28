@@ -14,7 +14,7 @@
   background-image: url("imgs/murder.jpg");
   height: 1000px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: 25% 0%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,7 +27,7 @@
  }
 
 #quote {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 footer {

@@ -8,14 +8,13 @@
   width: 100%;
   max-width: 900px;
 }
-.main {
+main {
   background-image: url('../imgs/llcast.jpg');
   opacity: 0.8;
   background-size: cover;
   height: 400px;
   display: flex;
-  text-align: center;
-  justify-content: center;
+  background-position: 50% 25%;
   margin-bottom: 50px;
 }
 
@@ -28,6 +27,7 @@
 .award {
   max-width: 300px;
   height: 270px;
+  margin: 30px;
 }
 .synopsis {
   display: flex;
@@ -45,4 +45,10 @@ a {
 
 a:hover {
   color: grey;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin: 30px;
 }
