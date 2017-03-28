@@ -9,9 +9,10 @@
   max-width: 900px;
 }
 
-.img-fluid {
+.poster {
   max-width: 450px;
-  height: 600px;
+  height: 500px;
+  margin: 30px;
 }
 .synopsis {
   display: flex;
@@ -28,4 +29,10 @@ a {
 
 a:hover {
   color: grey;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin: 30px;
 }
